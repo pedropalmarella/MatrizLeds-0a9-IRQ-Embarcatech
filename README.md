@@ -1,6 +1,6 @@
 # Matriz de LEDs - Contador com Botões e Joystick Embarcatech
 
-Este projeto implementa um contador exibido em uma **matriz de LEDs**, onde o valor exibido pode ser incrementado ou decrementado utilizando os botões A e B. O número é exibido na matriz de LEDs e, quando o valor for decrementado até o **-1**, todos os LEDs serão apagados. O sistema também possui um **modo de gravação**, que é ativado ao pressionar o **joystick (GPIO22)**.
+Este projeto implementa um contador exibido em uma **matriz de LEDs**, onde o valor exibido pode ser incrementado ou decrementado utilizando os botões A e B. O número é exibido na matriz de LEDs e, quando o valor for decrementado até o **-1**, todos os LEDs serão apagados. O modo de gravação (bootsel) é ativado ao pressionar o **joystick (GPIO22)**.
 
 ## Funcionalidades
 
