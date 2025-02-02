@@ -31,7 +31,7 @@ void gpio_irq_handler(uint gpio, uint32_t events)
         {
             reset_usb_boot(0, 0);
         }
-        last_time = current_time; // Atualiza o tempo do último evento
+        last_time = current_time;
         
     }
 }
@@ -42,10 +42,6 @@ int main()
     init_gpio();
     
     PIO pio = pio0; 
-    bool ok;
-    //coloca a frequência de clock para 128 MHz, facilitando a divisão pelo clock
-    ok = set_sys_clock_khz(128000, false);
-
     //configurações da PIO
     uint offset = pio_add_program(pio, &pio_matrix_program);
     uint sm = pio_claim_unused_sm(pio, true);
