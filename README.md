@@ -9,6 +9,9 @@ Este projeto implementa um contador exibido em uma **matriz de LEDs**, onde o va
 - O **botão B** decrementa o número exibido.
 - Quando o número for decrementado até **-1**, todos os LEDs serão apagados.
 - **Modo de gravação**: Ao pressionar o **joystick (conectado ao GPIO22)**, o sistema entra no modo de gravação.
+  
+## Como Usar
+Vídeo de apresentação: https://www.youtube.com/watch?v=3v5Q67LJ-lM
 
 ## Tecnologias Utilizadas
 
